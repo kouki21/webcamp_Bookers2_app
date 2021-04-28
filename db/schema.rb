@@ -10,14 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_04_28_100721) do
+ActiveRecord::Schema.define(version: 2021_04_28_114020) do
 
   create_table "books", force: :cascade do |t|
     t.text "title"
     t.integer "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "profile_image_id"
     t.text "body"
   end
 
